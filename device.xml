@@ -6,7 +6,7 @@
 
   <project name="AICP/device_sony_amami" path="device/sony/amami" remote="aicp" revision="p9.0" />
   <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="shunoDroid" revision="p9.0" />
-  <project name="device_sony_msm8974-common" path="device/sony/msm8974-common" remote="shunoDroid" revision="p9.0" />
+  <project name="device_sony_msm8974-common" path="device/sony/msm8974-common" remote="shunoDroid" revision="shunoDroid-9.0" />
   <project name="AICP/device_sony_common" path="device/sony/common-caf" remote="aicp" revision="p9.0-caf" />
   <project name="kernel_sony_msm8974" path="kernel/sony/msm8974" remote="shunoDroid" revision="p9.0" />
   <project name="arm-unknown-linux-androideabi-7.x" path="prebuilts/gcc/linux-x86/arm/arm-unknown-linux-androideabi-7.x" remote="shunoDroid" revision="master" />

@@ -2,4 +2,5 @@
 <manifest>
   <project name="LineageOS/android_external_openssh" path="external/openssh" remote="github" revision="lineage-16.0" />
   <project name="LineageOS/android_external_bash" path="external/bash" remote="github" revision="lineage-16.0" />
+  <project name="shunoDroid/vendor_shunodroid" path="vendor/shunodroid" remote="github" revision="master" />
 </manifest>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
+<remove-project name="LineageOS/android_hardware_nxp_nfc" />
+<project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" remote="aosp" groups="qcom" />
 <project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
 <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
 </manifest>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="shunodroid" fetch="https://github.com/shunoDroid/" revision="aicp/q10.0" />
+
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="master"/>
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="shunodroid" />
 
 <!--sdm630-->
 <project path="device/sony/nile" name="device-sony-nile" groups="device" remote="sony" revision="master" />
@@ -30,5 +32,5 @@
 <!--sm8150-->
 <project path="device/sony/kumano" name="device-sony-kumano" groups="device" remote="sony" revision="master" />
 <project path="device/sony/bahamut" name="device-sony-bahamut" groups="device" remote="sony" revision="master" />
-<project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="sony" revision="master" />
+<project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="shunodroid" revision="master" />
 </manifest>

@@ -4,7 +4,7 @@
 <remote name="shunodroid" fetch="https://github.com/shunoDroid/" revision="aicp/q10.0" />
 
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="shunodroid" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="shunodroid" revision="aicp/q10.0-opengapps" />
 
 <!--sdm630-->
 <project path="device/sony/nile" name="device-sony-nile" groups="device" remote="sony" revision="master" />

@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="shunoDroid"
+  <remote name="shunodroid"
 	  fetch="https://github.com/shunoDroid"
-	  revision="p9.0" />
+	  revision="shunodroid-10.0" />
 
-  <project name="device_sony_amami" path="device/sony/amami" remote="shunoDroid" revision="p9.0" />
-  <project name="device_sony_rhine-common" path="device/sony/rhine-common" remote="shunoDroid" revision="p9.0" />
-  <project name="device_sony_msm8974-common" path="device/sony/msm8974-common" remote="shunoDroid" revision="p9.0" />
-  <project name="AICP/device_sony_common" path="device/sony/common-caf" remote="aicp" revision="p9.0-caf" />
-  <project name="kernel_sony_msm8974" path="kernel/sony/msm8974" remote="shunoDroid" revision="shunoDroid-9.0" />
-  <project name="arm-unknown-linux-androideabi-7.x" path="prebuilts/gcc/linux-x86/arm/arm-unknown-linux-androideabi-7.x" remote="shunoDroid" revision="master" />
-  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="aicp" revision="lineage-16.0" />
-  <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="aicp" revision="lineage-16.0" />
-  <project name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="aicp" revision="lineage-16.0" />
-  <project name="LineageOS/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="aicp" revision="lineage-16.0" />
-  <project name="CarbonROM/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="aicp" revision="cr-7.0" />
-  <project name="LineageOS/android_external_connectivity" path="external/connectivity" remote="aicp" revision="lineage-16.0" />
-  <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="aicp" revision="android-8.1" />
-  <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="aicp" revision="android-9.0" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="aicp" revision="lineage-16.0" />
-  <project name="AICP/proprietary_vendor_sony" path="vendor/sony" remote="aicp" revision="p9.0" />
+  <project name="arm-unknown-linux-androideabi-7.x" path="prebuilts/gcc/linux-x86/arm/arm-unknown-linux-androideabi-7.x" remote="shunodroid" revision="master" />
+  <project path="device/sony/amami" remote="shunodroid" name="device_sony_amami" />
+  <project path="device/sony/rhine-common" remote="shunodroid" name="device_sony_rhine-common" />
+  <project path="device/sony/msm8974-common" remote="shunodroid" name="device_sony_msm8974-common" />
+  <project path="external/sony/boringssl-compat" remote="aicp" name="AICP/external_sony_boringssl-compat" revision="q10.0" />
+  <project path="device/sony/common-caf" remote="aicp" name="AICP/device_sony_common" revision="q10.0-caf" />
+  <project path="kernel/sony/msm8974" remote="shunodroid" name="kernel_sony_msm8974" />
+  <project path="hardware/sony/thermanager" remote="aicp" name="AICP/hardware_sony_thermanager" revision="q10.0" />
+  <project path="hardware/sony/macaddrsetup" remote="aicp" name="AICP/hardware_sony_macaddrsetup" revision="q10.0" />
+  <project path="hardware/sony/timekeep" remote="aicp" name="AICP/hardware_sony_timekeep" revision="q10.0" />
+  <project path="vendor/sony" remote="aicp" name="AICP/proprietary_vendor_sony" revision="q10.0" />
 </manifest>

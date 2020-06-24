@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="shunodroid"
-	  fetch="https://github.com/shunoDroid"
+	  fetch="ssh://git@github.com/shunoDroid"
 	  revision="shunodroid-10.0" />
 
-  <project name="arm-unknown-linux-androideabi-7.x" path="prebuilts/gcc/linux-x86/arm/arm-unknown-linux-androideabi-7.x" remote="shunodroid" revision="master" />
+  <project name="arm-unknown-linux-gnueabi-10.1.0" path="prebuilts/gcc/linux-x86/arm/arm-unknown-linux-gnueabi-10.1.0" remote="shunodroid" revision="master" />
   <project path="device/sony/amami" remote="shunodroid" name="device_sony_amami" />
   <project path="device/sony/rhine-common" remote="shunodroid" name="device_sony_rhine-common" />
   <project path="device/sony/msm8974-common" remote="shunodroid" name="device_sony_msm8974-common" />

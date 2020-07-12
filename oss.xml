@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
-<remote name="shunodroid" fetch="https://github.com/shunoDroid/" revision="aicp/q10.0" />
+<remote name="shunodroid" fetch="ssh://git@github.com/shunoDroid/" revision="aicp/q10.0" />
 <remove-project name="LineageOS/android_external_json-c" />
 <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />

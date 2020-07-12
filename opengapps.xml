@@ -2,7 +2,7 @@
 <manifest>
 <remote name="opengapps" fetch="https://github.com/opengapps/"  />
 <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
-<remote name="shunodroid" fetch="https://github.com/shunoDroid/" revision="aicp/q10.0" />
+<remote name="shunodroid" fetch="ssh://git@github.com/shunoDroid/" revision="aicp/q10.0" />
 
 <project path="vendor/opengapps/build" name="opengapps_aicp_build" revision="master" remote="shunodroid" />
 

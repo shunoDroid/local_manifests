@@ -2,9 +2,12 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 
-<remove-project name="platform/hardware/qcom/gps" />
+<remove-project name="LineageOS/android_hardware_qcom_gps" />
 <remove-project name="platform/hardware/qcom/sdm845/gps" />
 <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+
+<remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces" />
 
 <project path="hardware/qcom/gps" name="platform/hardware/qcom/sdm845/gps" remote="aosp" groups="qcom_sdm845" />
 
@@ -25,4 +28,7 @@
 <project path="vendor/qcom/opensource/wlan" name="hardware-qcom-wlan" groups="device" remote="sony" revision="master" />
 <project path="vendor/qcom/opensource/display-commonsys-intf" name="vendor-qcom-opensource-commonsys-intf-display" groups="device" remote="sony" revision="aosp/LA.UM.8.1.r1" />
 <project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.UM.7.1.r1" />
+
+<include name="local_manifests/aicp/qcom.xml" />
+
 </manifest>

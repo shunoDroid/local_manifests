@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="shunodroid" fetch="https://github.com/shunoDroid/" revision="aicp/q10.0" />
+
+<remove-project name="repo_update" />
+<project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="shunodroid" />
+
+<remove-project name="vendor-oss-interfaces" />
+<!-- <remove-project name="AICP/hardware_lineage_interfaces" /> -->
+<remove-project name="LineageOS/android_external_json-c" />
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remove-project name="LineageOS/android_hardware_qcom_sdm845_display" />
+<remove-project name="vendor-qcom-opensource-telephony" />
+<remove-project name="vendor-qcom-opensource-core-utils" />
+
+<remove-project name="vendor-qcom-opensource-interfaces" />
+<project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="device" remote="lineage" />
+
+</manifest>

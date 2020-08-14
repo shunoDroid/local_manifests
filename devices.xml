@@ -32,5 +32,9 @@
 <project path="device/sony/bahamut" name="device-sony-bahamut" groups="device" remote="sony" revision="master" />
 <project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="sony" revision="master" />
 
+<!--sm6125-->
+<project path="device/sony/seine" name="device-sony-seine" groups="device" remote="sony" revision="master" />
+<project path="device/sony/pdx201" name="device-sony-pdx201" groups="device" remote="sony" revision="master" />
+
 <include name="local_manifests/aicp/devices.xml" />
 </manifest>

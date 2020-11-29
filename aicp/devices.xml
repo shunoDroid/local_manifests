@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="shunodroid" fetch="https://github.com/shunoDroid/" revision="aicp/q10.0" />
-<remove-project name="device-sony-common" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="shunodroid" />
+  <remote name="shunodroid" fetch="https://github.com/shunoDroid/" revision="aicp/r11.0" />
+  <project path="device/sony/customization" name="android_device_sony_customization" groups="device" remote="shunodroid" />
+<!-- <remove-project name="device-sony-common" /> -->
+<!-- <project path="device/sony/common" name="device-sony-common" groups="device" remote="shunodroid" /> -->
 
 <!--msm8998-->
 <remove-project name="device-sony-lilac" />
 <project path="device/sony/lilac" name="device-sony-lilac" groups="device" remote="shunodroid" />
 
-<!--sm8150-->
-<remove-project name="device-sony-griffin" />
-<project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="shunodroid" />
+<!-- <!-\-sm8150-\-> -->
+<!-- <remove-project name="device-sony-griffin" /> -->
+<!-- <project path="device/sony/griffin" name="device-sony-griffin" groups="device" remote="shunodroid" /> -->
 </manifest>

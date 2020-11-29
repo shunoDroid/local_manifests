@@ -2,12 +2,12 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 
-<remove-project name="LineageOS/android_hardware_qcom_gps" />
 <remove-project name="platform/hardware/qcom/sdm845/gps" />
 <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
 
 <remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
 <remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces" />
+<remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
 
 <project path="vendor/qcom/opensource/gps" name="hardware-qcom-gps" groups="device" remote="sony" revision="aosp/LA.UM.8.1.r1" />
 
